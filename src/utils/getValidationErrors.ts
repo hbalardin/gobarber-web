@@ -12,6 +12,4 @@ export default function getValidationErrors(err: ValidationError): Errors {
   });
 
   return validationErrors;
-
-  return {};
 }
